@@ -15,7 +15,7 @@ import br.gov.sp.fatec.springboot3app.service.VocabuloService;
 
 @RestController
 @RequestMapping(value = "/vocabulo")
-@CrossOrigin
+@CrossOrigin("*")
 public class VocabuloController {
 
     @Autowired
